@@ -1,5 +1,5 @@
-/* Zapytanie pokazuje wyniki Roberta Kubicy (pozycja + punkty) w sezonie 2007. Rozbijając wyniki na każdy wyścig.
-wynikach rundy 7, gdyż Robert po wypadku w Kanadzie z przyczyn medycznych nie brał udziału w GP USA. */
+/* Zapytanie pokazuje wyniki Roberta Kubicy (pozycja + punkty) w sezonie 2007. Rozbijając zdobycze punktowe za każdy wyścig.
+W wynikach nie ma rundy 7, gdyż Robert po wypadku w Kanadzie z przyczyn medycznych nie brał udziału w GP USA. */
 
 select  
 	concat(forename, ' ',surname) 	as 'Driver'
